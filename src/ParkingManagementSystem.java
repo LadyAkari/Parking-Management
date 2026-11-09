@@ -21,4 +21,12 @@ public class ParkingManagementSystem {
     private JTextField textField4;
     private JTextField textField5;
     private JButton button1;
+
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("Character Counter");
+        frame.setContentPane(new ParkingManagementSystem().mainPnl);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setSize(450,400);
+        frame.setVisible(true);
+    }
 }
